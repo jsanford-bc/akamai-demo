@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 app.use(methodOverride());
 
 var routes = {};
+console.log();
 
 routes.getFoo = function(req, res) {
   res.status(200).send("Hello all");
